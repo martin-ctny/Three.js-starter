@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import EventEmitter from "./EventEmitter";
 
-export default class Ressources extends EventEmitter {
+export default class Resources extends EventEmitter {
   constructor(sources) {
     super();
 
