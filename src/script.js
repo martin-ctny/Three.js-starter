@@ -195,13 +195,6 @@ console.log(experience);
 //   canvas: canvas,
 //   antialias: true,
 // });
-// renderer.toneMapping = THREE.CineonToneMapping;
-// renderer.toneMappingExposure = 1.75;
-// renderer.shadowMap.enabled = true;
-// renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-// renderer.setClearColor("#211d20");
-// renderer.setSize(sizes.width, sizes.height);
-// renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 // /**
 //  * Animate
