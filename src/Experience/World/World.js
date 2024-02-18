@@ -2,6 +2,7 @@ import * as THREE from "three";
 import Experience from "../Experience";
 import Environement from "./Environement";
 import Floor from "./Floor";
+import Fox from "./Fox";
 
 export default class Word {
   constructor() {
@@ -20,7 +21,13 @@ export default class Word {
 
     this.resources.on("loaded", () => {
       this.floor = new Floor();
+      this.fox = new Fox();
       this.environement = new Environement();
     });
+  }
+  update() {
+    if (this.fox) {
+      this.fox.update();
+    }
   }
 }
