@@ -2,8 +2,6 @@ import Experience from "./Experience/Experience";
 
 const experience = new Experience(document.querySelector("canvas.webgl"));
 
-console.log(experience);
-
 // import * as THREE from "three";
 // import GUI from "lil-gui";
 // import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";

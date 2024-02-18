@@ -5,7 +5,6 @@ export default class Debug {
     this.active = window.location.hash === "#debug";
 
     if (this.active) {
-      console.log("dazdaz");
       this.ui = new lil.GUI();
     }
   }
