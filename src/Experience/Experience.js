@@ -14,6 +14,7 @@ export default class Experience {
   constructor(canvas) {
     if (instance) return instance;
     instance = this;
+
     // Global access
     window.experience = this;
 
