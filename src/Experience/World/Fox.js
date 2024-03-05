@@ -10,8 +10,10 @@ export default class Fox {
     this.debug = this.experience.debug;
 
     // Debug
+    if (this.debug.active) {
     this.debugFolder = this.debug.ui.addFolder("Fox");
     this.debugFolder.close();
+    }
 
     // Setup
     this.resource = this.resources.items.foxModel;
