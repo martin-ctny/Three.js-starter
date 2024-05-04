@@ -3,6 +3,7 @@ import Experience from "../Experience";
 import Environement from "./Environement";
 import Floor from "./Floor";
 import Fox from "./Fox";
+import Cube from "./Cube/Cube";
 
 export default class Word {
   constructor() {
@@ -11,11 +12,7 @@ export default class Word {
     this.resources = this.experience.resources;
 
     // Basic Cube
-    const cube = new THREE.Mesh(
-      new THREE.BoxGeometry(1, 1, 1),
-      new THREE.MeshStandardMaterial({ color: "red" })
-    );
-    // this.scene.add(cube);
+    this.cube = new Cube(new THREE.Vector3(2, 0.5, 0));
 
     // Environement
 
